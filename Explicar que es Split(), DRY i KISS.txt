@@ -1,0 +1,12 @@
+Explicar que es un split():
+  split(sep=None, mazsplit=-1)
+    -Torna una llista de paraules o tokens usan sep com a cadena de separació.
+    -S'utilitza per a dividir o separar un string en parts
+    
+Explicar que es DRY i KISS:
+  DRY (Don’t Repeat Yourself):
+    -Duplica dades
+    -Li dediques molt de temps en mantenir, depurar o modificar el codi
+  KISS (Keep It Simple, Stupid!): 
+    -És un acrònim usat com a principi de disseny, ens està dient els que mantinguesem el nostre codi fàcil 
+     i que no el féssem complicat, ja que els sistemes funcionen millor si són fàcils i no complexos.
