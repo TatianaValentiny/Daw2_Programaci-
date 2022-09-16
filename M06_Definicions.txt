@@ -1,0 +1,12 @@
+﻿Diferència entre == i ===
+
+
+Quan usem el doble igual comparem nomes el valor i donarà com a resultat true “1” == 1 encara que el valor es el mateix, pero en cas contrari si utilitzem === donara false, perquè encara que siguien el mateix valor son tipus diferents un es un string i el altre es un número
+
+
+
+
+Diferència entre LET i VAR
+
+
+Let es va utilitzar per a sustituir a var i actualment es millor utilitzar LET, les dos s’utilitzen per a definir variables.
