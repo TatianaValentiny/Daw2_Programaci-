@@ -1,0 +1,88 @@
+<html>
+<title>demos daw</title>
+<head> </head>
+<script>
+
+//Tipus de variables, la mateixa variable es pot posar en diferents tipos.
+var x = "hola ";
+console.log(x);
+x = "adéu ";
+console.log(x);
+
+//Let
+
+let m= "Tatiana";
+console.log(m);
+
+alert("Hola " + m);
+
+function validation(){
+
+    let usuari = document.getElementById("login").value;
+    let contrasenya = document.getElementById("Contrasenya").value;
+    if(user.length === 0){
+        alert("ERROR " + m);
+        document.getElementById("login").style.borderColor = "red";
+        document.getElementById("Contrasenya").style.borderColor = "red";
+    }
+    
+    if(usuari.value.length != 0){
+        alert("Ben fet " + m);
+        document.getElementById("login").style.borderColor = "green";
+    
+    }
+
+    if(contrasenya.length != 0){
+        alert("Ben fet! " + m);
+        document.getElementById("Contrasenya").style.borderColor = "green";
+
+    }
+
+    if(contrasenya.length === 0){
+        alert("ERROR!! " + m);
+        document.getElementById("Contrasenya").style.borderColor = "red";
+    }
+
+   
+
+}
+
+function mostrarNom(login, contrasenya){
+
+    document.getElementById("title").innerHTML = "<div>aa</div>";
+    document.getElementById("title").innerHTML = login;
+}
+
+
+
+
+function ocultar(){ 
+      document.getElementById("titol").style.visibility = "hidden";
+   
+}
+
+
+</script>
+
+<style lang = "css">
+    body{
+        margin: 3%;
+    }
+
+    </style>
+
+<body style="background-color:#a8e1f3;">
+    
+    <h1>Hola Classe </h1>
+    <DIV>
+        <h2 id="title"> </h2> DAW2 </h2><br/>
+     
+        <input type = "text"  name="login" id ="login" placeholder="Usuari"/>
+        
+        <input type = "Contrasenya" name="Contrasenya" id ="Contrasenya" placeholder="Contrasenya"/>
+        <input type = "button" text = "Enviar" onclick="validation()" value = "enviar">
+    </DIV>
+
+</body>
+</html>
+   
