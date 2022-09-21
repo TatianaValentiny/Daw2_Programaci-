@@ -20,13 +20,13 @@ function validation(){
 
     let usuari = document.getElementById("login").value;
     let contrasenya = document.getElementById("Contrasenya").value;
-    if(user.length === 0){
+    if(usuari.length === 0){
         alert("ERROR " + m);
         document.getElementById("login").style.borderColor = "red";
         document.getElementById("Contrasenya").style.borderColor = "red";
     }
     
-    if(usuari.value.length != 0){
+    if(usuari.length != 0){
         alert("Ben fet " + m);
         document.getElementById("login").style.borderColor = "green";
     
@@ -84,5 +84,5 @@ function ocultar(){
     </DIV>
 
 </body>
-</html>
+</html> 
    
